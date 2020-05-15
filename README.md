@@ -1,6 +1,13 @@
-# GQA-OOD (BMVC 2020 Submission)
+# The GQA-OOD Benchmark 
 
-Here is the GQA-OOD benchmark described in the submission "Roses are Red, Violets are Blue... But Should VQA expect Them To?".
+GQA-OOD is a new dataset and benchmark for the evaluation of VGQ models in OOD (out of distribution) settings. The corresponding paper "*Roses are Red, Violets are Blue... But Should VQA expect Them To?*" is currently under evaluation at the BMVC 2020 conference. 
+
+### Abstract ###
+
+  *To be reliable on rare events is an important requirement for systems based on machine learning. In this work we focus on Visual Question Answering (VQA), where, in spite of recent efforts, datasets remain imbalanced, causing shortcomings of current models: tendencies to overly exploit dataset biases and struggles to generalise to unseen associations of concepts. We focus on a systemic evaluation of model error distributions and address fundamental questions: How is the prediction error distributed? What is the prediction accuracy on infrequent vs. frequent concepts?*
+
+  *In this work, we design a new benchmark based on a fine-grained reorganization of the GQA dataset, which allows to precisely answer these questions. It introduces distributions shifts in both validation and test splits, which are defined on question groups and are thus tailored to each question. We performed a large-scale study and we experimentally demonstrate that several state-of-the-art VQA models, even those specifically designed for bias reduction, fail to address questions involving infrequent concepts. Furthermore, we show that the high accuracy obtained on the frequent concepts alone is mechanically increasing overall accuracy, covering up the true behavior of current VQA models.*
+
 
 ## How is the VQA's prediction error distributed? What is the prediction accuracy on infrequent vs. frequent concepts? 
 
@@ -10,9 +17,9 @@ GQA-OOD is a benchmark based on a fine-grained reorganization of the [GQA datase
  	
 ## GQA-OOD evaluation data
 
-GQA-OOD evaluation data are provided in data/. You will find three files for each split (validation and testdev). These files conrrepond to the "all", "head" and "tail" question-anwsers required to compute "acc-all", "acc-head" and "acc-tail".
+GQA-OOD evaluation data are provided in "*data/*". You will find three files for each split (validation and testdev). These files correspond to the "*all*", "*head*" and "*tail*" question-anwsers required to compute "*acc-all*", "*acc-head*" and "*acc-tail*".
 
-The evaluation data files respect the GQA annotation format. Therefore, you can directly use the [GQA evaluation script](https://cs.stanford.edu/people/dorarad/gqa/evaluate.html) (just replace GQA's evaluation datafiles by the GQA-OOD ones). 
+All evaluation data files respect the GQA annotation format and can directly be used with the [GQA evaluation script](https://cs.stanford.edu/people/dorarad/gqa/evaluate.html) (of course, replace GQA's evaluation datafiles by the GQA-OOD ones). 
 
 ## Benchmark
 
@@ -49,4 +56,6 @@ We evaluate on GQA-OOD several VQA methods designed to reduce bias dependacy:
 
 ## GQA-OOD construction code
 
-The code used to construct GQA-OOD from [GQA](https://cs.stanford.edu/people/dorarad/gqa/index.html) will be made available soon.
+Scripts for dataset construction from the original [GQA](https://cs.stanford.edu/people/dorarad/gqa/index.html) source will be made available soon.
+
+
