@@ -47,3 +47,6 @@ We evaluate on GQA-OOD several VQA methods designed to reduce bias dependacy:
 
 <img src="images/tail_plot_methods.PNG" alt="drawing" width="400"/>
 
+## GQA-OOD construction code
+
+The code used to construct GQA-OOD from [GQA](https://cs.stanford.edu/people/dorarad/gqa/index.html) will be made available soon.
