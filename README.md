@@ -6,8 +6,8 @@ Here is the GQA-OOD benchmark described in the paper "Roses are Red, Violets are
 
 GQA-OOD is a benchmark based on a fine-grained reorganization of the GQA dataset (https://cs.stanford.edu/people/dorarad/gqa/index.html), which allows to precisely answer these questions. It introduces distributions shifts in both validation and test splits, which are defined on question groups and are thus tailored to each question.
 
-<img src="teaser-a-v6.png" alt="drawing" width="400"/>
-<img src="teaser-b-v4.png" alt="drawing" width="400"/>
+<img src="teaser-a-v6.png" alt="drawing" width="300"/>
+<img src="teaser-b-v4.png" alt="drawing" width="300"/>
  	
 ## GQA-OOD evaluation files
 
@@ -26,7 +26,9 @@ We evaluate several VQA architectures
 | BUTD [Anderson et al, CVPR 18] | 46.4 +/- 1.1 | 42.1 +/- 0.9 | 49.1 +/- 1.1 |
 | MCAN [Yu et al, CVPR 19]       | 50.8 +/- 0.4 | 46.5 +/- 0.5 | 53.4 +/- 0.6 |
 
-![Accuracy vs. question-answer rareness (rare on the left, frequent on the right)](https://github.com/gqaood/GQA-OOD/blob/master/tail_plot_models.pdf)
+#### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
+
+<img src="tail_plot_models.PNG" alt="drawing" width="300"/>
 
 ### VQA bias-reducing techniques
 
@@ -40,5 +42,7 @@ We evaluate several VQA methods designed to reduce bias dependacy.
 | +LMH [Clark et al, EMNLP 19]     | 34.5 +/- 0.7 | 32.2 +/- 1.2 | 35.9 +/- 1.2  |
 | +BP [Clark et al, EMNLP 19]      | 33.1 +/- 0.4 | 30.8 +/- 1.0 | 34.5 +/- 0.5  |
 
-![Accuracy vs. question-answer rareness (rare on the left, frequent on the right)](https://github.com/gqaood/GQA-OOD/blob/master/tail_plot_methods.pdf)
+#### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
+
+<img src="tail_plot_methods.PNG" alt="drawing" width="300"/>
 
