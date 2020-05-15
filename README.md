@@ -1,6 +1,6 @@
 # GQA-OOD (BMVC 2020 Submission)
 
-Here is the GQA-OOD benchmark described in the paper "Roses are Red, Violets are Blue... But Should VQA expect Them To?".
+Here is the GQA-OOD benchmark described in the submission "Roses are Red, Violets are Blue... But Should VQA expect Them To?".
 
 ## How is the VQA's prediction error distributed? What is the prediction accuracy on infrequent vs. frequent concepts? 
 
