@@ -6,6 +6,9 @@ Here is the GQA-OOD benchmark described in the paper "Roses are Red, Violets are
 
 GQA-OOD is a benchmark based on a fine-grained reorganization of the GQA dataset (https://cs.stanford.edu/people/dorarad/gqa/index.html), which allows to precisely answer these questions. It introduces distributions shifts in both validation and test splits, which are defined on question groups and are thus tailored to each question.
 
+![](/teaser-a-v6.png)
+![](/teaser-b-v4.png)
+ 	
 ## GQA-OOD evaluation files
 
 
