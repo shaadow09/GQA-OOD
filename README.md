@@ -12,7 +12,7 @@ GQA-OOD is a benchmark based on a fine-grained reorganization of the GQA dataset
 
 GQA-OOD evaluation data are provided in data/. You will find three files for each split (validation and testdev). These files conrrepond to the "all", "head" and "tail" question-anwsers required to compute "acc-all", "acc-head" and "acc-tail".
 
-The evaluation data files respect the GQA annotation format. Therefore, you can directly use the GQA evaluation script provided at https://cs.stanford.edu/people/dorarad/gqa/evaluate.html (by replacing GQA's evaluation datafile by the GQA-OOD ones). 
+The evaluation data files respect the GQA annotation format. Therefore, you can directly use the GQA evaluation script provided at https://cs.stanford.edu/people/dorarad/gqa/evaluate.html (by replacing GQA's evaluation datafiles by the GQA-OOD ones). 
 
 ## Benchmark
 
