@@ -6,8 +6,7 @@ Here is the GQA-OOD benchmark described in the paper "Roses are Red, Violets are
 
 GQA-OOD is a benchmark based on a fine-grained reorganization of the GQA dataset (https://cs.stanford.edu/people/dorarad/gqa/index.html), which allows to precisely answer these questions. It introduces distributions shifts in both validation and test splits, which are defined on question groups and are thus tailored to each question.
 
-<img src="teaser-a-v6.png" alt="drawing" width="300"/>
-<img src="teaser-b-v4.png" alt="drawing" width="300"/>
+<div style="text-align:center"><img src="teaser-a-v6.png" alt="drawing" width="300"/><img src="teaser-b-v4.png" alt="drawing" width="300"/><\div>
  	
 ## GQA-OOD evaluation files
 
@@ -28,7 +27,7 @@ We evaluate several VQA architectures
 
 #### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
 
-<img src="tail_plot_models.PNG" alt="drawing" width="300"/>
+<div style="text-align:center"><img src="tail_plot_models.PNG" alt="drawing" width="300"/><\div>
 
 ### VQA bias-reducing techniques
 
@@ -44,5 +43,5 @@ We evaluate several VQA methods designed to reduce bias dependacy.
 
 #### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
 
-<img src="tail_plot_methods.PNG" alt="drawing" width="300"/>
+<div style="text-align:center"><img src="tail_plot_methods.PNG" alt="drawing" width="300"/><\div>
 
