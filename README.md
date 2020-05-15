@@ -8,17 +8,19 @@ GQA-OOD is a benchmark based on a fine-grained reorganization of the GQA dataset
 
 <p align="center"><img src="images/teaser-a-v6.png" alt="drawing" width="290"/><img src="images/teaser-b-v4.png" alt="drawing" width="300"/></p>
  	
-## GQA-OOD evaluation files
+## GQA-OOD evaluation data
 
+GQA-OOD evaluation data are provided in data/. You will find three files for each split (validation and testdev). These files conrrepond to the "all", "head" and "tail" question-anwsers required to compute "acc-all", "acc-head" and "acc-tail".
 
+The evaluation data files respect the GQA annotation format. Therefore, you can directly use the GQA evaluation script provided at https://cs.stanford.edu/people/dorarad/gqa/evaluate.html (by replacing GQA's evaluation datafile by the GQA-OOD ones). 
 
 ## Benchmark
 
 ### VQA architectures
 
-We evaluate several VQA architectures
+We evaluate several VQA architectures on GQA-OOD:
 
-| Model                          | acc-all      | acc-tail     | acc-head     |
+| Model (trained on GQA)         | acc-all      | acc-tail     | acc-head     |
 |--------------------------------|--------------|--------------|--------------|
 | Quest. Prior                   | 21.6         | 17.8         | 24.1         |
 | LSTM                           | 30.7         | 24.0         | 34.8         |
@@ -31,9 +33,9 @@ We evaluate several VQA architectures
 
 ### VQA bias-reducing techniques
 
-We evaluate several VQA methods designed to reduce bias dependacy.
+We evaluate on GQA-OOD several VQA methods designed to reduce bias dependacy:
 
-| Technique                        | acc-all      | acc-tail     | acc-head      |
+| Technique (trained on GQA)       | acc-all      | acc-tail     | acc-head      |
 |----------------------------------|--------------|--------------|---------------|
 | BUTD [Anderson et al; CVPR 18]   | 46.4 +/- 1.1 | 42.1 +/- 0.9 |  49.1 +/- 1.1 |
 | +RUBi+QB                         | 46.7 +/- 1.3 | 42.1 +/- 1.0 | 49.4 +/- 1.5  |
