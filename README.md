@@ -23,7 +23,7 @@ We evaluate several VQA architectures
 | BUTD [Anderson et al, CVPR 18] | 46.4 +/- 1.1 | 42.1 +/- 0.9 | 49.1 +/- 1.1 |
 | MCAN [Yu et al, CVPR 19]       | 50.8 +/- 0.4 | 46.5 +/- 0.5 | 53.4 +/- 0.6 |
 
-![Accuracy vs. question-answer rareness (rare on the left, frequent on the right)](/tail_plot_models.pdf)
+![Accuracy vs. question-answer rareness (rare on the left, frequent on the right)](https://github.com/gqaood/GQA-OOD/blob/master/tail_plot_models.pdf)
 
 ### VQA bias-reducing techniques
 
@@ -37,4 +37,5 @@ We evaluate several VQA methods designed to reduce bias dependacy.
 | +LMH [Clark et al, EMNLP 19]     | 34.5 +/- 0.7 | 32.2 +/- 1.2 | 35.9 +/- 1.2  |
 | +BP [Clark et al, EMNLP 19]      | 33.1 +/- 0.4 | 30.8 +/- 1.0 | 34.5 +/- 0.5  |
 
-![Accuracy vs. question-answer rareness (rare on the left, frequent on the right)](/tail_plot_methods.pdf)
+![Accuracy vs. question-answer rareness (rare on the left, frequent on the right)](https://github.com/gqaood/GQA-OOD/blob/master/tail_plot_methods.pdf)
+
