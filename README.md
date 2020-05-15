@@ -43,5 +43,5 @@ We evaluate several VQA methods designed to reduce bias dependacy.
 
 #### Accuracy vs. question-answer rareness (rare on the left, frequent on the right)
 
-<img align:"center" img src="tail_plot_methods.PNG" alt="drawing" width="300"/>
+<p align="center"><img src="tail_plot_methods.PNG" alt="drawing" width="300"/></p>
 
