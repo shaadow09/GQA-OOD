@@ -56,6 +56,6 @@ We evaluate on GQA-OOD several VQA methods designed to reduce bias dependacy:
 
 ## GQA-OOD construction code
 
-Scripts for dataset construction from the original [GQA](https://cs.stanford.edu/people/dorarad/gqa/index.html) source will be made available soon.
+Scripts for dataset construction from the original [GQA](https://cs.stanford.edu/people/dorarad/gqa/index.html) source is available in code/.
 
 
