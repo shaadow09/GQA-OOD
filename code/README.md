@@ -1,12 +1,25 @@
-# Download GQA and put it in gqa/
+We provide the code necessary for constructing the GQA-OOD dataset. 
 
-# To get acc-all, acc-tail and acc-head
->python evaluation.py --ood_test --predictions [prediction path (on ood_testdev_all or gqa_testdev)]
+### Download [GQA's original questions](https://cs.stanford.edu/people/dorarad/gqa/download.html) and put them in gqa/
 
-# To draw acc vs. alpha plot
-> python evaluation.py --eval_tail_size --predictions [prediction path (on ood_val_all or gqa_val)]
+In the paper, we use the version 1.2 of the dataset.
 
-# To construct the dataset GQA-OOD
+### Construct the GQA-OOD dataset
+
+To extract questions used for evaluating with the GQA-OOD benchmark, launch:
+
 > python build_gqa_ood.py --alpha 0.2 --split val
 
-# Requirements are available in requirement.txt
+We also provide some scripts to evaluate your model's predictions on GQA-OOD. The predictions must respect the standard GQA format.
+
+### Measuring acc-all, acc-tail and acc-head
+To obtain the three metrics described in the paper, launch:
+> python evaluation.py --ood_test --predictions [prediction path (on ood_testdev_all or gqa_testdev)]
+Those are measured on the testdev split of GQA-OOD.
+
+### Drawing acc vs. alpha plot
+To draw analyse the influence of alpha against the model accuracy, launch:
+> python evaluation.py --eval_tail_size --predictions [prediction path (on ood_val_all or gqa_val)]
+This analyse is performed on the validation split of GQA-OOD. A plot will be saved in plot/.
+
+#### Please, find the python requirements in requirement.txt
