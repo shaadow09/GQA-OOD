@@ -1,14 +1,18 @@
+## Constructing GQA-OOD dataset
+
 We provide the code necessary for constructing the GQA-OOD dataset. 
 
-### Download [GQA's original questions](https://cs.stanford.edu/people/dorarad/gqa/download.html) and put them in gqa/
+### 1) Download [GQA's original questions](https://cs.stanford.edu/people/dorarad/gqa/download.html) and put them in gqa/
 
 In the paper, we use the version 1.2 of the dataset.
 
-### Construct the GQA-OOD dataset
+### 2) Construct the GQA-OOD dataset
 
 To extract questions used for evaluating with the GQA-OOD benchmark, launch:
 
 > python build_gqa_ood.py --alpha 0.2 --split val
+
+## Evaluating on GQA-OOD
 
 We also provide some scripts to evaluate your model's predictions on GQA-OOD. The predictions must respect the standard GQA format.
 
