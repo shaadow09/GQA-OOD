@@ -36,3 +36,11 @@ To draw analyse the influence of alpha against the model accuracy, launch:
 This analyse is performed on the validation split of GQA-OOD. A plot will be saved in plot/.
 
 #### Please, find the python requirements in requirement.txt
+
+### License
+
+All provided source codes are the property of the authors (copyright 2020), and are licensed under the GNU General Public License, version 3 (GPL-3.0). By downloading them, you agree to use them only for non-commercial purposes and to abide by all terms of the GNU GPL-3.0 License.
+More particularly, by requesting access to the sources, you commit:
+- to report to the authors any content which you consider inappropriate or unsuitable (including without limitation offensive, harmful, threatening, violent or otherwise objectionable content)
+- to remove any such content
+- to refrain from making claims against the authors whatever the basis.
